@@ -1,1 +1,1 @@
-<table width="100%"><tr width="100%">
+<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">

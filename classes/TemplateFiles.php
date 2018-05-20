@@ -83,7 +83,8 @@ class TemplateFiles extends TemplateInfo
 			}
 			case 'filename':
 			{
-				return Url::html_output($this -> temp_item -> __get('filename'));
+				// TODO: better description here
+				return Url::html_output(str_replace("_", " ", $this -> temp_item -> __get('filename')));
 			}
 			case 'file_ext':
 			{
