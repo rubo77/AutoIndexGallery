@@ -5,7 +5,7 @@
 base_dir	./
 icon_path	index_icons/osx/
 language	de
-template	./templates/rubo77s_image_gallery/
+template	./templates/photoswipe_gallery/
 log_file	access_log
 description_file	file_descriptions
 user_list	.htpasswd.autoindex
