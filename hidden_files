@@ -11,3 +11,7 @@ license.html
 readme.html
 access_log
 *~
+.git*
+.tags
+/js
+/css
