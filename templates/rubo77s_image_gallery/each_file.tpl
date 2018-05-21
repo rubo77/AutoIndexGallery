@@ -2,7 +2,7 @@
 
 
 <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <a itemprop="contentUrl" data-size="600x400" href="{file:link}">
+    <a itemprop="contentUrl" data-size="{file:width}x{file:height}" href="{file:link}">
      {file:thumbnail}
     </a>
     {if:description_file}
