@@ -321,7 +321,7 @@ try
 			{
 				continue;
 			}
-			if ($b_list[$i]{0} === ':')
+			if ($b_list[$i][0] === ':')
 			{
 				$only_these_ips[] = substr($b_list[$i], 1);
 			}
@@ -361,7 +361,7 @@ try
 			{
 				continue;
 			}
-			if ($hidden_list[$i]{0} === ':')
+			if ($hidden_list[$i][0] === ':')
 			{
 				$show_only_these_files[] = substr($hidden_list[$i], 1);
 			}
